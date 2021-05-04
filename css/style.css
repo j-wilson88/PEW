@@ -120,13 +120,59 @@ transform: translateY(-50%);
 
 
 
+/*--------teams---------*/
 
+.wrapper{
+	margin-top: 10%;
 
+}
 
+.wrapper h1{
+	font font-size: 52px;
+	margin-bottom: 60px;
+	text-align: center;
+}
 
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
+.team .team-member{
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	background:#2A9C46;
+	color: #d5d5d5;
+	position: relative;
+}
 
+.team .team-member h3{
+	color: black;
+	font-size: 26px;
+	margin-top: 50px;
 
+}
+
+.team .team-member p.role{
+	color: 
+	font-size:12px;
+	text-transform: uppercase;
+	margin: 12px 0;
+}
+
+.team .team-member img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -50px;
+	left: 50%;
+}
 
 
 /*---------------Footer------------*/
